@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+  <factura>
+    <numero>12345</numero>
+    <fecha>1/2/2000</fecha>
+
+    <cliente>
+      <nombre>José</nombre>
+      <apellidos>León León</apellidos>
+      <direccion>
+        <calle>Barco</calle>
+        <numero>1</numero>
+        <ciudad>Badajoz</ciudad>
+        <provincia>Badajoz</provincia>
+        <pais>España</pais>
+      </direccion>
+    </cliente>
+
+    <productos>
+      <producto>
+        <uds>2</uds>
+        <precio>2</precio>
+        <subtotal>4</subtotal>
+        <iva_aplicado>1</iva_aplicado>
+        <total>5</total>
+      </producto>
+
+      <producto>
+        <uds>3</uds>
+        <precio>3</precio>
+        <subtotal>9</subtotal>
+        <iva_aplicado>2,5</iva_aplicado>
+        <total>11,5</total>
+      </producto>
+
+      <producto>
+        <uds>4</uds>
+        <precio>4</precio>
+        <subtotal>16</subtotal>
+        <iva_apliclado>4</iva_apliclado>
+        <total>20</total>
+      </producto>
+    </productos>
+
+    <base>29</base>
+    <iva-total>7,5</iva-total>
+    <total>36,5</total>
+
+  </factura>
+</facturas>

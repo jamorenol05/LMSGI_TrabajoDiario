@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE matricula [
+  <!ELEMENT matricula (personal,pago)>
+  <!ELEMENT personal (dni,nombre,titulacion,curso_academico,domicilios)>
+  <!ELEMENT dni (#PCDATA)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT titulacion (#PCDATA)>
+  <!ELEMENT curso_academico (#PCDATA)>
+  <!ELEMENT domicilios (domicilio*)>
+  <!ELEMENT domicilio (nombre)>
+  <!ATTLIST domicilio tipo (familiar | habitual) #REQUIRED>
+  <!ELEMENT pago (tipo_matricula)>
+  <!ELEMENT tipo_matricula (#PCDATA)>
+]>
+<matricula>
+  <personal>
+    <dni>79251856A</dni>
+    <nombre>Juan pedro martin</nombre>
+    <titulacion>Ingenieria Infomática</titulacion>
+    <curso_academico>Ingenieria Infomática</curso_academico>
+    <domicilios>
+      <domicilio tipo="familiar">
+        <nombre>C/ ramon y cajal, 11</nombre>
+      </domicilio>
+      <domicilio tipo="habitual">
+        <nombre>C/ montera, 30</nombre>
+      </domicilio>
+    </domicilios>
+  </personal>
+  <pago>
+    <tipo_matricula>Matricula ordinaria</tipo_matricula>
+  </pago>
+</matricula>

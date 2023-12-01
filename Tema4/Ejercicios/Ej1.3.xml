@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billete_avion>
+  <pasajero>
+    <nombre></nombre>
+    <apellidos></apellidos>
+  </pasajero>
+  <aeropuerto_origen>
+    <ciudad></ciudad>
+    <nombre_aeropuerto></nombre_aeropuerto>
+  </aeropuerto_origen>
+  <aeropuerto_destino>
+    <ciudad></ciudad>
+    <nombre_aeropuerto></nombre_aeropuerto>
+  </aeropuerto_destino>
+  <fecha_vuelo>
+    <dia></dia>
+    <mes></mes>
+    <año></año>
+  </fecha_vuelo>
+  <hora_vuelo>
+    <hora></hora>
+    <minutos></minutos>
+  </hora_vuelo>
+  <destinos>
+    <ciudad>
+      <nombre></nombre>
+    </ciudad>
+    <hotel>
+      <nombre></nombre>
+    </hotel>
+    <noches>
+      <numero></numero>
+    </noches>
+    <precio></precio>
+  </destinos>
+</billete_avion>

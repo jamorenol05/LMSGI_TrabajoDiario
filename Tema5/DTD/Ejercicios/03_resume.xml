@@ -1,0 +1,16 @@
+<!DOCTYPE resume [
+  <!ELEMENT resume (school)>
+  <!ELEMENT name (school)>
+  <!ELEMENT degree (school)>
+]>
+<resume>
+  <school type= ”college”>
+    <name>Austin Community College</name>
+    <degree>Associates of Applied Science</degree>
+    <year>1988</year>
+    <location>
+      <city>Austin</city>
+      <state>Texas</state>
+    </location>
+  </school>
+</resume>

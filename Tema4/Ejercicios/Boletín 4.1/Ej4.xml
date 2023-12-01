@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+  <datos_personales>
+    <nombre>Juan</nombre>
+    <primer_apellido>Delgado</primer_apellido>
+    <segundo_apellido>Martinez</segundo_apellido>
+  </datos_personales>
+  <producto>bicicleta A2023</producto>
+  <entrega>
+    <direccion>
+      <calle>Barco</calle>
+      <numero>4</numero>
+      <piso>Tercero</piso>
+      <letra>A</letra>
+    </direccion>
+    <fecha>
+      <dia>19</dia>
+      <mes>5</mes>
+      <año>2000</año>
+    </fecha>
+  </entrega>
+</pedido>

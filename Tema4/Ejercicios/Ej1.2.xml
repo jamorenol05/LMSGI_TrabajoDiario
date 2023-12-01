@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viaje_turistico>
+  <cliente>
+    <nombre></nombre>
+    <apellidos></apellidos>
+  </cliente>
+  <fecha_inicio>
+    <dia></dia>
+    <mes></mes>
+    <año></año>
+  </fecha_inicio>
+  <fecha_fin>
+    <dia></dia>
+    <mes></mes>
+    <año></año>
+  </fecha_fin>
+  <origen_del_viaje>
+    <ciudad></ciudad>
+    <provincia></provincia>
+    <pais></pais>
+  </origen_del_viaje>
+  <destinos>
+    <ciudad>
+      <nombre></nombre>
+    </ciudad>
+    <hotel>
+      <nombre></nombre>
+    </hotel>
+    <pernoctaciones>
+      <numero></numero>
+    </pernoctaciones>
+  </destinos>
+  <precio>
+    <primer_pago></primer_pago>
+    <segundo_pago></segundo_pago>
+  </precio>
+</viaje_turistico>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos_personales>
+  <nombre>Juan Antonio</nombre>
+  <apellidos>Moreno Lavado</apellidos>
+  <DNI>07253392C</DNI>
+  <fecha_de_nacimiento>17/04/1990</fecha_de_nacimiento>
+  <sexo>M</sexo>
+  <direccion>
+    <calle>Lupa</calle>
+    <numero>1</numero>
+    <ciudad>Los Santos de Maimona</ciudad>
+    <codigo_postal>06230</codigo_postal>
+    <provincia>Badajoz</provincia>
+    <pais>España</pais>
+  </direccion>
+  <telefono>
+    <fijo>924544765</fijo>
+    <movil>65478776</movil>
+  </telefono>
+  <correo_electronico>hsdvgfc@gmail.com</correo_electronico>
+</datos_personales>

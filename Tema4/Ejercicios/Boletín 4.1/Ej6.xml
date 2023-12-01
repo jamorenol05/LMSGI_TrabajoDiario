@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email>
+  <destinatarios>
+    <destinatario>
+      <correo_electronico>hgjhbcd@gmail.com</correo_electronico>
+      <conCopia>hwjehfvbw@gmail.com</conCopia>
+      <conCopiaOculta>fsdgjhbvdv@gmail.com</conCopiaOculta>
+    </destinatario>
+  </destinatarios>
+  <remitente>jtgtfdg@gmail.com</remitente>
+  <asunto>urgente</asunto>
+  <texto>Hola, adios</texto>
+  <adjuntos>
+    <adjunto>
+      <nombre>imagen1</nombre>
+      <tamaño type="kb">34</tamaño>
+      <extension>.jpg</extension>
+    </adjunto>
+  </adjuntos>
+</email>

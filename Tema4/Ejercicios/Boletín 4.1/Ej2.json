@@ -1,0 +1,43 @@
+{
+  "numero": "12345",
+  "fecha": "1/2/2000",
+  "cliente": {
+    "name": "José",
+    "apellidos": "León León",
+    "dirección": [
+      {
+        "calle": "Barco",
+        "numero": "1",
+        "ciudad": "Badajoz",
+        "provincia": "Badajoz",
+        "pais": "España"
+      }
+    ]
+  },
+  "productos": [
+    {
+      "uds": 2,
+      "precio": 2,
+      "subtotal": 4,
+      "iva_aplicado": 1,
+      "total": 5
+    },
+    {
+      "uds": 3,
+      "precio": 3,
+      "subtotal": 9,
+      "iva_aplicado": 2.5,
+      "total": 11.5
+    },
+    {
+      "uds": 4,
+      "precio": 4,
+      "subtotal": 16,
+      "iva_aplicado": 4,
+      "total": 20
+    }
+  ],
+  "base": 29,
+  "iva-total": 7.5,
+  "total": 36.5
+}

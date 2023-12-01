@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+  <factura>
+    <numero_factura>999</numero_factura>
+    <fecha>12-01-2005</fecha>
+    <numero_pedido>731</numero_pedido>
+    <forma_pago>EFECTIVO</forma_pago>
+    <emisor>
+      <empresa>Equipos Digitales S.L</empresa>
+      <direccion>Av. Valladolid</direccion>
+      <ciudad>Madrid</ciudad>
+      <codigo_postal>28015</codigo_postal>
+      <CIF>Q-9876543</CIF>
+      <telefono>91.777.66.88</telefono>
+      <fax>91.777.66.99</fax>
+    </emisor>
+    <cliente>
+      <numero>879</numero>
+      <nombre>Darío Bueno Gutiérrez</nombre>
+      <direccion_envio>
+        <calle>Avda. Oporto</calle>
+        <numero>7</numero>
+        <piso>4º</piso>
+        <letra>d</letra>
+        <poblacion>Madrid</poblacion>
+        <codigo_postal>28043</codigo_postal>
+        <provincia>Madrid</provincia>
+      </direccion_envio>
+    </cliente>
+    <productos>
+      <producto>
+        <referencia>MII9300F/8</referencia>
+        <descripcion>Micro Pentium IV 3000Mhz FB800</descripcion>
+        <cantidad>1</cantidad>
+        <precio>230 eur.</precio>
+        <IVA>16,0</IVA>
+        <importe>266,80 eur.</importe>
+      </producto>
+      <producto>
+        <referencia>MB8QDIP4</referencia>
+        <descripcion>Placa base QDI P4</descripcion>
+        <cantidad>1</cantidad>
+        <precio>180 eur.</precio>
+        <IVA>16,0</IVA>
+        <importe>208,80 eur.</importe>
+      </producto>
+      <producto>
+        <referencia>MEDD512M32</referencia>
+        <descripcion>DIMM DDR 512MB 3200</descripcion>
+        <cantidad>2</cantidad>
+        <precio>40 eur.</precio>
+        <IVA>16,0</IVA>
+        <importe>92,80 eur.</importe>
+      </producto>
+      <producto>
+        <referencia>HD250GSA7</referencia>
+        <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+        <cantidad>4</cantidad>
+        <precio>120 eur.</precio>
+        <IVA>16,0</IVA>
+        <importe>556,80 eur.</importe>
+      </producto>
+    </productos>
+    <importe_total>
+      <base_imponible>970,00 eur.</base_imponible>
+      <iva>16,0</iva>
+      <cuota_iva>155,20 eur.</cuota_iva>
+    </importe_total>
+    <total_factura>1125,20 eur.</total_factura>
+  </factura>
+</facturas>

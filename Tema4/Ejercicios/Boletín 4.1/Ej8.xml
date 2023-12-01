@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arboles>
+  <arbol>
+    <nombre_latin>Acer monspessulanum</nombre_latin>
+    <nombre_comun>Arce de Montpellier, Arce menor</nombre_comun>
+    <vegetacion>caducifolio</vegetacion>
+    <altura>de 6 a 10 metros</altura>
+    <Forma_y_estructura>copa esferica. Tronco principal recto con bifurcaciones.Ramaje colgante</Forma_y_estructura>
+    <color_primavera>haz verde, envés verde blanquecino</color_primavera>
+    <resistencia_heladas>heladas fuertes</resistencia_heladas>
+    <grados_centigrados>hasta -15ºC</grados_centigrados>
+  </arbol>
+  <arbol>
+    <nombre_latin>Olea europea</nombre_latin>
+    <nombre_comun>Olivo</nombre_comun>
+    <vegetacion>perenne</vegetacion>
+    <altura>de 8 a 15 metros</altura>
+    <forma_y_estructura>copa irregular. Tronco principal irregular con bifurcaciones</forma_y_estructura>
+  </arbol>
+  <arbol>
+    <nombre>Ramaje tortuoso</nombre>
+    <color_primavera>Haz verde oscuro, envés verde plateado</color_primavera>
+    <resistencia_heladas>Heladas fuertes</resistencia_heladas>
+    <grados_centigrados>hasta -10ºC</grados_centigrados>
+  </arbol>
+  <arbol>
+    <nombre_latin>Platanus orientalis</nombre_latin>
+    <nombre_comun>Platano</nombre_comun>
+    <vegetacion>Caducifolio</vegetacion>
+    <altura>de 20 a 25 metros</altura>
+    <Forma_y_estructura>Copa ovoidal. TRonco principal recto. Ramaje expandido</Forma_y_estructura>
+    <color_primavera>Haz verde medio, enves verde claro</color_primavera>
+    <color_otoño>Ocre</color_otoño>
+    <resistencia_heladas>heladas fuertes</resistencia_heladas>
+    <grados_centigrados>hasta -20ºC</grados_centigrados>
+  </arbol>
+  <arbol>
+    <nombre_latin>Quercus ilex</nombre_latin>
+    <nombre_comun>Encina</nombre_comun>
+    <vegetacion>Perenne</vegetacion>
+    <altura>en torno a 25 metros</altura>
+    <Forma_y_estructura>Copa esferica o eliptica irregular. Tronco principal recto. Ramaje tortuoso</Forma_y_estructura>
+    <color_primavera>Plateado en hojas jovenes. En hojas antiguas, haz verde oscuro, enves plateado</color_primavera>
+    <color_otoño>Ocre</color_otoño>
+    <resistencia_heladas>heladas fuertes</resistencia_heladas>
+    <grados_centigrados>hasta -15ºC</grados_centigrados>
+  </arbol>
+</arboles>

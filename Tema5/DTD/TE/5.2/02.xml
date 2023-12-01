@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE stock [
+  <!ELEMENT stock (articulo)*>
+  <!ELEMENT articulo (categoria,(precio?))>
+  <!ELEMENT categoria (#PCDATA)>
+  <!ELEMENT precio (#PCDATA)>
+  <!ATTLIST articulo codigo CDATA #REQUIRED>
+]>
+<stock>
+  <articulo codigo="13252A">
+    <categoria>Ordenador</categoria>
+    <precio>310.25</precio>
+  </articulo>
+  <articulo codigo="15252A">
+    <categoria>impresora</categoria>
+  </articulo>
+  <articulo codigo="47582A">
+    <categoria>Monitor</categoria>
+    <precio>310.25</precio>
+  </articulo>
+</stock>
