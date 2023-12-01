@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cartelera [
     <!ELEMENT cartelera (pelicula)+>
-    <!ELEMENT pelicula (titulo,titulo_original,nacionalidad,genero,clasificacion,sinopsis,director,reparto,actor,web,cartel)>
+    <!ELEMENT pelicula (titulo,titulo_original,nacionalidad,genero,(clasificacion | sin_clasificar),sinopsis,director,reparto,web,cartel)>
     <!ATTLIST pelicula codigo CDATA #REQUIRED>
     <!ATTLIST pelicula duracion CDATA #REQUIRED>
     <!ATTLIST pelicula anio CDATA #IMPLIED>
     <!ELEMENT titulo (#PCDATA)>
-    <!ELEMENT titulo_original (#PCDATA)>
+    <!ELEMENT titulo_original (#PCDATA)?>
     <!ELEMENT nacionalidad (#PCDATA)>
     <!ELEMENT genero (#PCDATA)>
     <!ELEMENT clasificacion (#PCDATA)>
     <!ATTLIST clasificacion edad (tp|8|12|16|18) #REQUIRED>
-    <!ELEMENT sin_clasificar (#PCDATA)>
+    <!ELEMENT sin_clasificar EMPTY>
     <!ELEMENT sinopsis (#PCDATA)>
     <!ELEMENT director (#PCDATA)>
     <!ELEMENT reparto (actor)+>
@@ -21,7 +21,7 @@
 
 
 ]>
-
+<!-- titulo,titulo_original,nacionalidad,genero,(clasificacion | sin_clasificar),sinopsis,director,reparto,web,cartel -->
 <cartelera>
   <pelicula codigo="p1" duracion="152" anio="2002">
     <titulo>AQUELLAS JUERGAS UNIVERSITARIAS</titulo>
