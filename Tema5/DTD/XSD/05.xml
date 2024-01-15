@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="05.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<order>
+  <customer>
+    <name>John Doe</name>
+    <email>john@example.com</email>
+  </customer>
+  <item id="12134">
+    <name>Laptop</name>
+    <quantity>2</quantity>
+    <price>899.99</price>
+  </item>
+</order>

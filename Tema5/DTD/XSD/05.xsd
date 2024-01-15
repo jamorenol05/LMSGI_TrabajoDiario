@@ -1,0 +1,32 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="order">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="customer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="email" type="xs:string" minOccurs="1" maxOccurs="3" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!--Elemento
+        item-->
+        <xs:element name="item">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="quantity" type="xs:int" />
+              <xs:element name="price" type="xs:float" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:positiveInteger" use="required" />
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
