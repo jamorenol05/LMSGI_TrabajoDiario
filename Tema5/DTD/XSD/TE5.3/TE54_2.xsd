@@ -7,13 +7,23 @@
                         <xs:sequence>
                             <xs:element name="Title" type="xs:string" minOccurs="1"
                                 maxOccurs="unbounded" />
-                            <xs:element name="Author" type="xs:string" minOccurs="1"
-                                maxOccurs="unbounded" />
+                            <xs:element name="Author" minOccurs="1"
+                                maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="country" type="xs:string"
+                                                default="United States" use="optional" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name="ISBN" type="xs:string" />
-                            <xs:element name="Genre" type="xs:string" />
+                            <xs:element name="Genre" type="xs:string" minOccurs="1"
+                                maxOccurs="unbounded" />
                             <xs:element name="PublicationYear" type="xs:gYear" minOccurs="0" />
                         </xs:sequence>
-                        <xs:attribute name="country" type="xs:string" use="optional" default="EEUU" />
+
                         <xs:attribute name="tipo" use="optional">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
@@ -24,10 +34,10 @@
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:attribute>
+                        <xs:attribute name="ISBN" type="xs:string" use="required" />
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
-            <xs:attribute name="ISBN" type="xs:string" use="required" />
         </xs:complexType>
     </xs:element>
 </xs:schema>
