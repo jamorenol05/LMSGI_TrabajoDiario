@@ -18,12 +18,12 @@
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="ISBN" type="xs:string" />
-                            <xs:element name="Genre" type="xs:string" minOccurs="1"
+                            <xs:element name="ISBN" type="xs:string" minOccurs="0"
+                                maxOccurs="unbounded" />
+                            <xs:element name="Genre" type="xs:string" minOccurs="0"
                                 maxOccurs="unbounded" />
                             <xs:element name="PublicationYear" type="xs:gYear" minOccurs="0" />
                         </xs:sequence>
-
                         <xs:attribute name="tipo" use="optional">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
