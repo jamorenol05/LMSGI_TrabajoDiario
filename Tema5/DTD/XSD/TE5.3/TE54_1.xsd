@@ -1,0 +1,26 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Employees">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Employee" minOccurs="2" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="EmployeeID" type="xs:int" minOccurs="1" />
+                            <xs:element name="Name">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="FirstName" type="xs:string" minOccurs="1" />
+                                        <xs:element name="LastName" type="xs:string" minOccurs="1" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Department" type="xs:string" minOccurs="0"
+                                maxOccurs="unbounded" />
+                            <xs:element name="Salary" type="xs:int" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
