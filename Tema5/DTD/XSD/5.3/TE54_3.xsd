@@ -1,0 +1,92 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="itinerary">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="trip" type="xs:string" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" minOccurs="1"
+                                maxOccurs="unbounded" />
+                            <xs:element name="destination" type="xs:string" minOccurs="1"
+                                maxOccurs="unbounded" />
+                            <xs:element name="departureDate" type="xs:string" minOccurs="1"
+                                maxOccurs="unbounded" />
+                            <xs:element name="arrivalDate" type="xs:string" minOccurs="0"
+                                maxOccurs="unbounded" />
+                            <xs:element name="price" type="xs:decimal" minOccurs="0"
+                                maxOccurs="unbounded" />
+                            <xs:element name="activities">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" minOccurs="1"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="description" type="xs:string"
+                                            minOccurs="0" maxOccurs="unbounded" />
+                                        <xs:element name="date" type="xs:date" minOccurs="1"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="price" type="xs:decimal" minOccurs="0"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="type" ... />
+                                        <xs:element name="seats" type="xs:int" minOccurs="1"
+                                            maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="excursions" type="xs:int" minOccurs="1"
+                                maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" minOccurs="1"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="description" type="xs:string"
+                                            minOccurs="0" maxOccurs="unbounded" />
+                                        <xs:element name="date" type="xs:date" minOccurs="1"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="price" type="xs:decimal" minOccurs="0"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="destination" type="xs:string"
+                                            minOccurs="1" maxOccurs="unbounded" ... />
+                                        <xs:element name="seats" type="xs:int" minOccurs="1"
+                                            maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="passenger" type="xs:int" minOccurs="0"
+                                maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" minOccurs="1"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="lastName" type="xs:string" minOccurs="0"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="birthdate" type="xs:date" minOccurs="0"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="passportNumber" type="xs:string"
+                                            minOccurs="0" maxOccurs="unbounded" />
+                                        <xs:element name="phoneNumber" type="xs:int" minOccurs="0"
+                                            maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="countryCode" />
+                                                    <xs:element name="number" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="email" type="xs:string" minOccurs="0"
+                                            maxOccurs="unbounded" ... />
+                                        <xs:element name="roomNumber" type="xs:string" minOccurs="0"
+                                            maxOccurs="unbounded" />
+                                        <xs:element name="roomType" />
+                                        <xs:element name="ticketNumber" type="xs:string"
+                                            minOccurs="1" maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="code" type="xs:string" use="required" ...>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
