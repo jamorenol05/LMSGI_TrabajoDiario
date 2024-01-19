@@ -26,9 +26,9 @@
     </Book>
 
     <Book ISBN="978-1-23-456789-0">
-    <Title>Harry Potter and the Chamber of Secrets</Title>
-    <Author country="United Kingdom">J. K. Rowling</Author>
-    <Genre>Fiction</Genre>
-    <PublicationYear>1998</PublicationYear>
-
+        <Title>Harry Potter and the Chamber of Secrets</Title>
+        <Author country="United Kingdom">J. K. Rowling</Author>
+        <Genre>Fiction</Genre>
+        <PublicationYear>1998</PublicationYear>
+    </Book>
 </LibraryCatalog>
