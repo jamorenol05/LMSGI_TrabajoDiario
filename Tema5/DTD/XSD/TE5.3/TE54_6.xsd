@@ -1,0 +1,47 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="alumnos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="alumno" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+              <xs:element name="direccion" minOccurs="1" maxOccurs="2">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="calle" />
+                    <xs:element name="numero">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:int">
+                          <xs:minExclusive value="0" />
+                          <xs:maxExclusive value="500" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="ciudad" />
+                    <xs:element name="provincia" default="Caceres">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Badajoz" />
+                          <xs:enumeration value="Caceres" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="telefono" type="xs:int" minOccurs="0" maxOccurs="5" />
+            </xs:sequence>
+            <xs:attribute name="dni">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="[0-9]{8}[A-Z]{1}" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

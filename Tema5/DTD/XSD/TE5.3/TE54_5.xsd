@@ -7,7 +7,14 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="calle" type="xs:string" />
-              <xs:element name="numero" type="xs:int" />
+              <xs:element name="numero">
+                <xs:simpleType>
+                  <xs:restriction base="xs:int">
+                    <xs:minExclusive value="0" />
+                    <xs:maxExclusive value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
               <xs:element name="ciudad" type="xs:string" />
               <xs:element name="provincia" type="xs:string" />
             </xs:sequence>
@@ -16,6 +23,5 @@
         <xs:element name="telefono" type="xs:int" minOccurs="0" maxOccurs="5" />
       </xs:sequence>
     </xs:complexType>
-
   </xs:element>
 </xs:schema>
