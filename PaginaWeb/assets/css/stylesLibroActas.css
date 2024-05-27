@@ -1,0 +1,102 @@
+:root {
+  --primary-color: #4b0082;
+  --secondary-color: #f4f4f4;
+  --text-color: #333;
+  --font-family: 'Montserrat', sans-serif;
+  --spacing: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: var(--spacing);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: var(--spacing) 0;
+  text-align: center;
+}
+
+header .logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto var(--spacing) auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main.container {
+  display: grid;
+  gap: var(--spacing);
+}
+
+.left-column {
+  padding: var(--spacing);
+  background-color: white;
+  border-radius: 8px;
+}
+
+.right-column {
+  display: grid;
+  gap: var(--spacing);
+}
+
+.right-column .subsection {
+  padding: var(--spacing);
+  background-color: white;
+  border-radius: 8px;
+}
+
+#galeria img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: var(--spacing) 0.5rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: var(--spacing) 0;
+}
+
+footer .social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .social-media a i {
+  margin-right: 5px;
+}
