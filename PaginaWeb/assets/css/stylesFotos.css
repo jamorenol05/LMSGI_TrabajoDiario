@@ -20,9 +20,10 @@ body {
 }
 
 .container {
-  width: 80%;
-  margin: 0 auto;
-  padding: var(--spacing);
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding:0%;
 }
 
 header {
@@ -54,9 +55,10 @@ nav ul li a {
   font-weight: bold;
 }
 
-main.container {
+main.main-container {
   display: grid;
   gap: var(--spacing);
+  text-align: left;
 }
 
 #galeria img {

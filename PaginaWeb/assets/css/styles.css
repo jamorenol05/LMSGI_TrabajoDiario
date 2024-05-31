@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #4b0082;
+  --primary-color: #6506a8;
   --secondary-color: #f4f4f4;
   --text-color: #333;
   --font-family: 'Montserrat', sans-serif;
@@ -57,18 +57,27 @@ nav ul li a {
 main.container {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  max-width: 960px;
   gap: var(--spacing);
+  margin-left: -25px;
+  margin-right: 0;
 }
 
 .left-column {
-  padding: var(--spacing);
+  padding: 0;
   background-color: white;
   border-radius: 8px;
+  margin-left: 0px;
+  margin-right: 200px;
 }
 
 .right-column {
   display: grid;
-  gap: var(--spacing);
+  padding: 0;
+  gap: 1rem;
+  margin-left: 0;
+  margin-right: 100px;
+  width: 300px;
 }
 
 .right-column .subsection {
@@ -77,11 +86,22 @@ main.container {
   border-radius: 8px;
 }
 
+.p {
+  padding: 0;
+  width: 200px;
+  height: 200px;
+}
+      
 #galeria img {
   width: 100%;
   max-width: 300px;
   height: auto;
   margin: var(--spacing) 0.5rem;
+}
+aside {
+  width: 30%;
+  height: 40%;
+
 }
 
 footer {
