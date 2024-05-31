@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 :root {
   --primary-color: #4b0082;
   --secondary-color: #f4f4f4;
   --text-color: #333;
-  --font-family: 'Montserrat', sans-serif;
-  --spacing: 1.5rem;
+  
+  --font-family: Inter, system-ui, sans-serif
 }
 
 * {
@@ -16,7 +17,6 @@ body {
   font-family: var(--font-family);
   color: var(--text-color);
   background-color: var(--secondary-color);
-  line-height: 1.6;
 }
 
 .container {
