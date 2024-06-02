@@ -80,8 +80,10 @@
 }
 .section-events {
   padding: 0 1rem .5rem;
-  border-radius: .2rem;
+  border: .5rem;
+  border-radius: 1.5rem;
   gap: 2rem;
+  background-color:blanchedalmond;
 
 
   & h2 {
@@ -128,10 +130,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
-
+  gap: 2rem;
+  border-radius: 1.5rem;
+  border: .5rem;
+  background-color: blanchedalmond;
   padding: 0 1rem .5rem;
-  border-radius: .2rem;
+
   
 
   & h2 {

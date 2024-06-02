@@ -7,7 +7,7 @@
   --text-color: #333;
   --font-family: 'Montserrat', sans-serif;
   --spacing: 1.5rem;
-  --maxwidth: 780px;
+  --maxwidth: 1280px;
 }
 
 * {
@@ -37,7 +37,7 @@ header {
   margin: 0 auto;
   background-color: var(--primary-color);
   color: white;
-  padding: var(--spacing) 0;
+  padding: var(--spacing);
   text-align: center;
 }
 
@@ -49,18 +49,19 @@ header .logo {
 
 nav ul {
   list-style: none;
-  padding: 0;
+  padding: .5rem;
+  gap: 1rem;
 }
 
 nav ul li {
-  display: inline;
+  display:inline;
   margin: 0 1rem;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight:700;
 }
 
 
