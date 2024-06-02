@@ -32,8 +32,6 @@
     justify-content: flex-start;
     text-align: justify;
     gap: 2rem;
-
-    
   }
 
 }
@@ -135,6 +133,7 @@
   border: .5rem;
   background-color: blanchedalmond;
   padding: 0 1rem .5rem;
+  margin-top: 1rem;
 
   
 
