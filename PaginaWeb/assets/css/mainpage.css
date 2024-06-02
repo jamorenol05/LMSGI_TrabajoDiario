@@ -71,20 +71,53 @@
 
 }
 
+.card-event{
+  border-radius: .5rem;
+  background-color:blanchedalmond;
+  gap: 1rem
+  
+
+}
 .section-events {
   padding: 0 1rem .5rem;
   border-radius: .2rem;
-  border-color: blueviolet;
+  gap: 2rem;
+
 
   & h2 {
     text-align: center;
+    gap: 5rem;
+    
+  }
+
+  
+  & h3 {
+    text-align: center;
+    gap: 2rem;
+  }
+
+  
+  & h5 {
+    text-align:left;
+    gap: 2rem;
+  }
+
+  
+  & h6 {
+    text-align:left
+  }
+
+  & p {
+    text-align: left;
+    width: 70%;
+    height: 30%;
   }
 
   .card-event {
     display: flex;
     flex-direction: column;
     padding-top: 1rem;
-  
+    
     .title {
       font-size: 1.2em;
     }
