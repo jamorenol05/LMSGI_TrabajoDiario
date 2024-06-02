@@ -20,9 +20,13 @@ body {
 }
 
 .container {
+  display: grid;
   width: 80%;
+  gap: 3rem;
+  max-width: 1280px;
   margin: 0 auto;
   padding: var(--spacing);
+  text-align: justify;
 }
 
 header {
